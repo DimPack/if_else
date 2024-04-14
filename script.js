@@ -17,7 +17,10 @@ if(num1 > num2) {
 
 
 const number1 = 21;
-if((number1 % 7 === 0) && (number1 % 3 === 0)) {
+const num_1 = 7;
+const num_2 = 3;
+
+if((number1 % num_1 === 0) && (number1 % num_2 === 0)) {
     console.log('you win!');
 } else {
     console.log('you lose!');
